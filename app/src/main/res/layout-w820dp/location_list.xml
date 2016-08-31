@@ -11,7 +11,6 @@
 
     <ListView
         android:id="@+id/location_list"
-        android:name="com.example.savagavran.masterdetail.LocationListFragment"
         android:layout_width="@dimen/list_width"
         android:layout_height="match_parent"
         tools:context="com.example.savagavran.masterdetail.MainActivity"/>
