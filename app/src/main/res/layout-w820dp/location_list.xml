@@ -7,13 +7,13 @@
     android:divider="?android:attr/dividerHorizontal"
     android:orientation="horizontal"
     android:showDividers="middle"
-    tools:context="com.example.savagavran.masterdetail.MainActivity">
+    tools:context=".LocationListActivity">
 
     <ListView
         android:id="@+id/location_list"
         android:layout_width="@dimen/list_width"
         android:layout_height="match_parent"
-        tools:context="com.example.savagavran.masterdetail.MainActivity"/>
+        tools:context=".LocationListActivity"/>
 
     <FrameLayout
         android:id="@+id/location_detail_container"
