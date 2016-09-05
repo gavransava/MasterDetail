@@ -35,7 +35,7 @@ public class LocationListActivity extends AppCompatActivity {
                 String location = (String) ((TextView) view
                         .findViewById(android.R.id.text1)).getText();
                 if (mTwoPane) {
-                    //replaceDetailFragment(location);
+                    replaceDetailFragment(location);
                 } else {
                     startDetailActivity(location);
                 }
